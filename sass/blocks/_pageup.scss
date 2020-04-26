@@ -1,0 +1,16 @@
+.pageup {
+	display: none;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transform: rotate(180deg);
+	z-index: 10;
+	span {
+		box-shadow: -4px -4px 5px rgba(0, 0, 0, 0.25);
+		border-radius: 50px;
+		font-size: 2em;
+	}
+	span:hover {
+		box-shadow: -6px -6px 10px rgba(0, 0, 0, 0.35);
+	}
+}

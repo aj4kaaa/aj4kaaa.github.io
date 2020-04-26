@@ -1,0 +1,46 @@
+.header {
+	position: fixed;
+	top: 0;
+	height: 57px;
+	width: 100%;
+	background-color: $bg;
+	z-index: 999;
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__logo {
+		display: block;
+		width: 40px;
+		height: 40px;
+	}
+}
+
+.nav-menu {
+	height: 57px;
+	&__links {
+		height: 100%;
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__link {
+		margin-right: 20px;
+	}
+}
+
+.phone-block {
+	&__number span {
+		margin-left: 10px;
+	}
+}
+.phone-block:hover {
+	.phone-block__number span {
+		color: $gold;
+		font-size: 1.5em;
+	}
+}
+

@@ -1,0 +1,29 @@
+.slider {
+	position: relative;
+	&__customPrevBtn {
+		position: absolute;
+		cursor: pointer;
+		width: 40px;
+		height: 40px;
+		top: -240px;
+		left: 0;
+		z-index: 1;
+		&:hover {
+			background-color: rgba(#d5a129, 0.5)
+		}
+	}
+	&__customNextBtn {
+		position: absolute;
+		cursor: pointer;
+		width: 40px;
+		height: 40px;
+		top: -240px;
+		right: 0;
+		z-index: 1;
+		&:hover {
+			background-color: rgba(#d5a129, 0.5)
+		}
+	}
+	
+}
+
